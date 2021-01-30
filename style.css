@@ -1,0 +1,813 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+ 
+ /************************************************menue bar Level 1**************************************************/
+
+div ul
+{
+	float: left;	
+}
+div ul li 
+{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+div ul li a
+{
+	text-decoration: none;
+	border:none;
+	color: #fff;
+	font-family:'Arimo', sans-serif;
+	text-align: center; 
+	outline: none;
+	padding:30px 0px;
+	text-transform: uppercase;
+	display: block;
+	font-size: 16px;
+	width: 110px;	
+
+}
+div ul li a:hover
+{
+	border: 1px solid #f3f3f3;
+	transition: 0.3s ;
+}
+/***************************************menue bar Level 1 end************************************************/
+/******************************************menue bar Level 2*************************************************/
+
+div ul li ul
+{   
+	float: left;
+	position: absolute;
+}
+div ul li ul li
+{
+	float: left;
+	list-style: none;
+	background-color: rgba(0,0,0,0.7);
+	position: relative;
+	right: 100px;
+	top: 1mm;
+}
+div ul li ul li  a
+
+{
+	width: 200px;
+	padding: 20px;
+	display: block;
+}
+div ul li ul li a:hover
+{
+	background-color: rgba(243,243,243,0.5);
+	color: black;
+	transition: 0.3s ease-in;
+	border: none;
+}
+
+/*******************************************menue bar level 3 start*****************************************/
+div ul li ul li ul
+{   
+	float: left;
+    position: absolute;
+    left: 300px;
+    top: 0px;
+    display: block;
+}
+div ul li ul li ul li
+{
+	float: left;
+	list-style: none;
+	background-color: rgba(0,0,0,0.7);
+	position: relative;
+	top: 0px;
+    
+	
+}
+div ul li ul li ul li a
+
+{
+	width: 150px;
+	padding: 20px;
+	display: block;
+}
+div ul li ul li ul li a:hover
+{
+	background-color: rgba(243,243,243,0.5);
+	color: black;
+	transition: 0.3s ease-in;
+	border: none;
+}
+
+/*********************************************menue bar Level 3 end**********************************************/
+
+@media(min-width:1240px)
+{
+	.main1
+{
+	background-image: url("img/bg-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 1240px;
+	height: 650px;
+	float: left;
+}
+}
+@media(max-width:1240px)
+{
+	.main1
+{
+	background-image: url("img/bg-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 1240px;
+	height: 650px;
+	float: left;
+}
+}
+
+.logo
+{
+	box-shadow: 0px 0px 2px 0px white;
+	height: 100px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0,0,0,0.5);
+
+}
+.logo img
+{
+	margin:30px 0px 0px 160px;
+	height: 60%;
+}
+@media(min-width:1240px)
+{
+	.main-bar
+{
+	height: auto;
+	width: 1240px;
+	position: absolute;
+    color: #f3f3f3;
+    left: 460px;
+	top: 0px;
+}
+}
+@media(max-width:1240px)
+{
+	.main-bar
+{
+	height: auto;
+	width: 1240px;
+	position: absolute;
+    color: #f3f3f3;
+    left: 460px;
+	top: 0px;
+}
+}
+.drop-hotels
+{
+    display: none;
+}
+.hotels:hover .drop-hotels
+{
+    display: block;
+}
+.drop-pakeges
+{
+    display: none;
+}
+.pakages:hover .drop-pakeges
+{
+	display: block;
+}
+.drop-honeymoon
+{
+    display: none;
+}
+.honeymoon:hover .drop-honeymoon
+{
+    display: block;
+}
+.drop-vacation
+{
+	display: none;
+}
+.vacation:hover .drop-vacation
+{
+	display: block;
+}
+.drop-business
+{
+	display: none;
+}
+.business:hover .drop-business
+{
+	display: block;
+}
+.text
+{
+	color: #fff;
+	width: auto;
+	margin-left:150px;
+	margin-top: 150px;
+	border-left: 4px solid white;	 
+
+}
+
+.text h1
+{
+	font-size: 50px;
+	font-family: 'Arimo', sans-serif;
+    color: #f3f3f3;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	padding-left: 60px;
+}
+.text p
+{
+	font-size:16px;
+	font-family: 'Nunito', sans-serif;
+    color: #f3f3f3;
+	text-transform: uppercase;
+	line-height: 1rem;
+	letter-spacing: auto;
+	padding-left: 60px;
+}
+.text button
+{
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+	width: 100px;
+	height: 30px;
+	display: block;
+	background-color: transparent;
+	box-shadow: 0px 0px 2px 0px white;
+	border:none;
+	margin-left: 60px;
+	outline: none;
+	cursor: pointer;
+}
+.text button:hover
+{
+	background-color: rgba(0,0,0,0.5);
+	transition: 0.3s ease-in;
+}
+
+/**************************************************Main 1 stlye End**********************************************/
+/**************************************************Main 2 stlye Start**********************************************/
+.main2
+{
+	
+	height: 600px;
+	width: 1240px;
+	background-color: #EEEEEE;
+	font-family: 'Nunito',sans-serif;
+	display: table;
+}
+.column
+{
+	display: table-cell;
+	text-align: justify;
+	width: 250px;
+	height: 50px;
+	padding-left: 55px;
+}
+.column h1
+{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 30px;
+	font-family: 'Arimo',sans-serif;
+}
+.main2 button
+{
+	margin: 28px 520px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+	width: 200px;
+	height: 30px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.5);
+}
+.main2 button a 
+{
+	text-decoration: none;
+	border: none;
+	outline: none;
+	display: block;
+	color: #f3f3f3;
+}
+.main2 button:hover
+{
+	background-color: black;
+	transition: 0.3s ease-in;
+}
+ 
+ /**************************************************Main 2 stlye end**********************************************/
+ /**************************************************Main 3 stlye Start**********************************************/
+
+@media(min-width:1240px){
+ .main3
+{
+	background-image: url("img/bg-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 1240px;
+	height: 550px;
+	position: relative;
+	bottom: 50px;
+}
+}
+@media(max-width:1240px){
+ .main3
+{
+	background-image: url("img/bg-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 1240px;
+	height: 550px;
+	position: relative;
+	bottom: 50px;
+}
+}
+.register
+{
+	height: 100%;
+	width: 100%;
+ 	background-color: rgba(0,0,0,0.1);
+ 	color: #f3f3f3;
+ 	padding: 0;
+ 	margin: 0;
+}
+.register h1
+{
+	font-family: 'Tangerine',sarif;
+	font-size: 70px;
+	text-align: center;
+	padding-top: 120px;
+
+}
+.register p
+{
+	text-align: center;
+	font-family: 'Nunito',sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+.register button
+{
+	margin: 28px 520px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+	box-shadow: 0px 0px 2px 0px white;
+	width: 200px;
+	height: 30px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.5);
+}
+.register button a 
+{
+	text-decoration: none;
+	border: none;
+	outline: none;
+	display: block;
+	color: #f3f3f3;
+}
+.register button:hover
+{
+	background-color: black;
+	transition: 0.3s ease-in;
+}
+
+/**************************************************Main 4 stlye Start**********************************************/
+
+@media(min-width:1240px){
+.main4
+{
+	height: 660px;
+	width: 1240px;
+	background-color: #EEEEEE;
+	font-family: 'Nunito',sans-serif;
+	position: relative;
+	bottom: 80px;
+}
+}
+@media(max-width:1240px){
+.main4
+{
+	height: 660px;
+	width: 1240px;
+	background-color: #EEEEEE;
+	font-family: 'Nunito',sans-serif;
+	position: relative;
+	bottom: 80px;
+}
+}
+.main4 h1
+{
+	font-family: 'Nunito',sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+
+}
+.main4 p
+{
+	font-family: 'Nunito',sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+.grid
+{
+	margin-left: 190px;
+}
+
+.column-grid
+{
+	display: table-cell;
+	width: 1px;
+	padding-left: 10px;
+	font-family: 'Nunito',sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.column-grid img
+{
+	width: 210px;
+	
+}
+.column-grid div h2
+{
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+.column-grid div button a
+{
+	text-decoration: none;
+	border: none;
+	outline: none;
+	display: block;
+	color: #f3f3f3;	
+}
+.column-grid div button
+{	
+	margin-left: 40px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+	box-shadow: 0px 0px 2px 0px white;
+	width: 130px;
+	height: 30px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	background-color: transparent;
+	margin-top: 30px;
+}
+.column-grid div button:hover
+{
+	background-color: black;
+	transition: 0.3s ease-in;
+}
+.drop-africa
+{
+	display: none;
+}
+.africa:hover .drop-africa
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.drop-china
+{
+	display: none;
+}
+.china:hover .drop-china
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.drop-meverest
+{
+	display: none;
+}
+.meverest:hover .drop-meverest
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.drop-france
+{
+	display: none;
+}
+.france:hover .drop-france
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.drop-germany
+{
+	display: none;
+}
+.germany:hover .drop-germany
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.drop-himalya
+{
+	display: none;
+}
+.himalya:hover .drop-himalya
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.drop-india
+{
+	display: none;
+}
+.india:hover .drop-india
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.drop-korea
+{
+	display: none;
+}
+.korea:hover .drop-korea
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.drop-russia
+{
+	display: none;
+}
+.russia:hover .drop-russia
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.drop-turkey
+{
+	display: none;
+}
+.turkey:hover .drop-turkey
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.drop-uk
+{
+	display: none;
+}
+.uk:hover .drop-uk
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+.drop-usa
+{
+	display: none;
+}
+.usa:hover .drop-usa
+{
+	display: block;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+/**************************************************Main 4 stlye end**********************************************/
+/**************************************************Main 5 stlye Start**********************************************/
+
+@media(min-width:1240px){
+.main5
+{
+ height: 650px;
+	width: 1240px;
+	background-color: #fff;
+	font-family: 'Nunito',sans-serif;
+	position: relative;
+	bottom: 10px;
+}
+}
+@media(max-width:1240px){
+.main5
+{
+ height: 650px;
+	width: 1240px;
+	background-color: #fff;
+	font-family: 'Nunito',sans-serif;
+	position: relative;
+	bottom: 10px;
+}
+}
+.help h1
+{
+	font-family: 'Nunito',sans-serif;
+	text-align: center;
+
+}
+.help p
+{
+	font-family: 'Nunito',sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+.main5 img
+{
+	width: 250px;
+}
+.row-col
+{
+	width: 250px;
+	text-align: justify;
+	float: left;
+	padding-left: 55px;
+}
+
+/**************************************************Main 5 stlye end**********************************************/
+/**************************************************Main 6 stlye Start**********************************************/
+
+@media(min-width:1240px){
+.main6
+{
+	background-image: url(img/bg-world.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 1240px;
+	height: 720px;
+
+}
+}
+@media(max-width:1240px){
+.main6
+{
+	background-image: url(img/bg-world.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 1240px;
+	height: 720px;
+
+}
+}
+.row-col img
+{
+	width: 250px;
+}
+.row-col h1
+{
+	font-family: 'Nunito',sans-serif;
+	text-align: center;
+
+}
+.row-col p
+{
+	font-family: 'Nunito',sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+.news
+{
+	margin-left: 150px;
+}
+.row-col button
+{
+	text-transform: uppercase;
+	font-size: 16px;
+	color: white;
+	box-shadow: 0px 0px 2px 0px white;
+	width: 200px;
+	height: 30px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.5);
+	margin-left: 25px;
+}
+.row-col button a 
+{
+	text-decoration: none;
+	border: none;
+	outline: none;
+	display: block;
+	color: #f3f3f3;
+}
+.row-col button:hover
+{
+	background-color: black;
+	transition: 0.3s ease-in;
+}
+
+/**************************************************Main 6 stlye end**********************************************/
+/**************************************************Footer stlye start**********************************************/
+#footer
+{
+	margin-left: 50px;
+	padding: 50px;
+}
+@media(min-width:1240px){
+.footer
+{
+	background-color: #1c2b24;
+	height: 400px;
+	width: 1240px;
+
+}
+}
+@media(max-width:1240px){
+.footer
+{
+	background-color: #1c2b24;
+	height: 400px;
+	width:1240px;
+
+}
+}
+.col-footer
+{
+	float: left;
+	width: 200px;
+	color: #fff;
+}
+.col-footer h1
+{
+ 	font-family: 'Nunito',sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+.col-footer p
+{
+	font-family: 'Nunito',sans-serif;
+	font-size: 13px;
+	text-align: center;
+}
+.col-footer input
+{
+	border: none;
+	outline: none;
+	height: 30px;
+	width: 200px;
+	color: white;
+	border: 1px solid #fff;
+	background-color:transparent;
+	font-family: 'Nunito',sarif;
+	font-size: 13px;
+	padding-left: 2px;
+}
+
+.col-footer button a
+{
+	text-decoration: none;
+	display: block;
+	border: none;
+	color: #fff;
+	font-family: 'Nunito';
+	font-size:13px;
+
+}
+.col-footer button
+{
+	background-color: transparent;
+	outline:none;
+	border: none;
+	height: 30px;
+	width: 100px;
+	border: 1px solid #fff;
+}
+.col-footer button:hover
+{
+	background-color: black;
+	transition: 0.3s ease-in;
+
+}
+
+
+
+
+
+/**************************************************Footer stlye end**********************************************/
